@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md py-5 px-5">
       {/* Left */}
@@ -20,5 +20,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;
